@@ -12,16 +12,15 @@ module Iinari
 
       sections.each do |s|
         if s =~ /^第[0-9]章/
-          puts s.gsub(/第|章/, '第' => '', '章' => ' ')
+          puts '■ ' + s.gsub(/第|章/, '第' => '', '章' => ' ')
         elsif s =~ /^[0-9]\.[0-9]\s/
-          puts "■ #{s} "
+          puts "★ #{s} "
         elsif s =~ /^[0-9]\.[0-9]\./
           puts "[ ] #{s}"
         end
       end
       puts ''
       puts '------------------------------------------------------------'
-      puts ''
     end
   end
 end
