@@ -7,7 +7,7 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'iinari'
+gem 'iinari', github: 'vitamiena/iinari'
 ```
 
 And then execute:
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+iinari create /path/to/dir
+```
 
 ## Contributing
 
